@@ -1,0 +1,153 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4b4e51;
+}
+
+header {
+    background: url("../Images/back.jpg");
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: cover;
+    height: 160px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+#name {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    background: white;
+    color: #1f1e1f;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#bold {
+    font-weight: bolder;
+}
+
+.nav {
+    margin-top: 20px;
+    float: right;
+    display: block;
+    font-size: 22px;
+    padding-right: 30px;
+    text-decoration: none;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2d2e;
+}
+
+a:hover {
+    color: #858185;
+}
+
+#selected {
+    font-weight: bold;
+}
+
+.about {
+    float: left;
+    padding: 20px;
+}
+
+.right {
+    float: right;
+    padding-right: 50px;
+}
+
+#laptop {
+    width: 500px;
+    height: 250px;
+}
+
+.paragraph {
+    padding: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+#copyright {
+    color: #green;
+    text-align: center;
+    background: #fff;
+    height: 20px;
+    width: 180px;
+    padding: 5px;
+    position: relative;
+    top: 60px;
+    left: 650px;
+}
+
+#project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.projects {
+    font-weight: bold;
+}
+
+main {
+    margin-top: 80px;
+    margin-left: 150px;
+    flex: 1 0 auto;
+}
+
+.socialMedia {
+    width: 20px;
+    height: 20px;
+}
+
+.contact {
+    border: 2px solid #2e2d2e;
+    width: 500px;
+    padding: 20px;
+    background: #1f1e1f;
+    color: #d1d1d1;
+}
+
+footer {
+    clear: both;
+    margin-top: 20px;
+    background: url("../Images/back.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center bottom;
+    height: 160px;
+    display: block;
+    justify-content: center;
+}
+
+.projectImages {
+    width: 200px;
+    height: 200px;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+textarea {
+    height: 80px;
+}
+
+ul {
+    padding-left: 20px;
+}
