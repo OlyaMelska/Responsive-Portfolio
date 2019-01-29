@@ -14,7 +14,6 @@ menuIcon.addEventListener("click", value => {
   portfolio.classList.add("dropdown-menu");
   contact.innerHTML = `<a href="./contact.html">Contact</a>`;
   contact.classList.add("dropdown-menu");
-  console.log("you clicked");
 });
 
 window.onscroll = function() {
