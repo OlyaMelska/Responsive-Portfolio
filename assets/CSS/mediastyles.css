@@ -1,6 +1,6 @@
 @media screen and (max-width: 980px) {
-    body {
-        /* background: yellow; */
+    .name {
+        font-size: 48px;
     }
 }
 
