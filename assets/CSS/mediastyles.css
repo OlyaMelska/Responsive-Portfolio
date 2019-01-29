@@ -1,0 +1,98 @@
+@media screen and (max-width: 980px) {
+    body {
+        /* background: yellow; */
+    }
+}
+
+@media only screen and ( max-width: 768px) {
+    header {
+        display: none;
+        margin-bottom: 0;
+    }
+    .name {
+        font-size: 42px;
+        padding-top: 8px;
+        margin: 0;
+    }
+    .name-media {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        height: 50px;
+    }
+    main {
+        margin-left: 5px;
+    }
+    #profileImg {
+        width: 160px;
+        height: 220px;
+    }
+    .container {
+        display: block;
+    }
+    .row-1-col-1 {
+        float: left;
+        margin-right: 10px;
+    }
+    .row-1-col-2, .row-2-col-1, .row-2-col-2 {
+        display: block;
+    }
+    ul {
+        margin-left: 10px;
+    }
+    #copyright {
+        color: #2e2d2e;
+        text-align: center;
+        margin: auto;
+    }
+    footer {
+        clear: both;
+        background: #fff;
+        height: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .menu-icon {
+        display: inline;
+    }
+    #menu-icon {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        margin-left: 15px;
+    }
+    .navbar {
+        height: 50px;
+    }
+    .nav {
+        visibility: hidden;
+    }
+    .name {
+        font-size: 32px;
+        padding-top: 13px;
+        height: 50px;
+    }
+    #profileImg {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    footer {
+        margin-top: 30px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
