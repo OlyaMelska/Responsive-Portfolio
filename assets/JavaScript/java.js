@@ -8,11 +8,11 @@ let portfolio = document.getElementById("portfolio");
 let contact = document.getElementById("contact");
 
 menuIcon.addEventListener("click", value => {
-  about.innerHTML = `<a href="../../index.html">About</a>`;
+  about.innerHTML = `<a href="./index.html">About</a>`;
   about.classList.add("dropdown-menu");
-  portfolio.innerHTML = `<a href="../../portfolio.html">Portfolio</a>`;
+  portfolio.innerHTML = `<a href="./portfolio.html">Portfolio</a>`;
   portfolio.classList.add("dropdown-menu");
-  contact.innerHTML = `<a href="../../contact.html">Contact</a>`;
+  contact.innerHTML = `<a href="./contact.html">Contact</a>`;
   contact.classList.add("dropdown-menu");
   console.log("you clicked");
 });
