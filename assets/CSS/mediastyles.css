@@ -98,6 +98,9 @@
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    input, textarea {
+        width: 95%;
+    }
     footer {
         margin-top: 30px;
         height: 50px;
