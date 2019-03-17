@@ -4,109 +4,333 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>about</title>
+    <title>Olha Melska</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Styles CSS-->
     <link rel="stylesheet" href="./assets/CSS/style.css" />
-    <link rel="stylesheet" href="assets/CSS/mediastyles.css" />
-    <link rel="icon" type="image/jpeg" href="./assets/Images/icon.jpg" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Hind+Madurai"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text"
-      rel="stylesheet"
-    />
+        <link rel="stylesheet" href="assets/CSS/media.css">
+    <!--Logo Icon Link-->
+    <link rel="icon" type="image/jpeg" href="./assets/Images/logo-nav.png " />
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel|Open+Sans|Libre+Barcode+128+Text" rel="stylesheet">
+
   </head>
   <body>
-    <header><h1 class="name">Olha Melska</h1></header>
-    <nav id="navbar">
+    
+    <!--Header-->
+    <header id="start-page">
+      <div data-aos="zoom-in" data-aos-duration="3000" id="div-front"><img src="./assets/Images/OM-logo.png" alt="Logo Olha Melska" id="front-logo">
+      <h1 id="start-page-text">Hey there! My name is <span class="bold">Olha Melska</span></h1>
+        <h1>I am a <span class="bold">Full Stack Web Developer</span></h1>
+      <a href="#navbar"><button class="margin-top">Find out more about me . . . </button></a></div>
+      
+    </header>
+
+    <!--NavBar-->
+
+    <nav id="navbar" class="sticky">
       <div class="menu-icon">
-        <img src="assets/Images/menu-icon.png" id="menu-icon" />
+        <img src="assets/Images/nav-phone.png" id="menu-icon" />
       </div>
-      <div>
+
+      <!-- <div> -->
+        <div class="nav main-link" id="hide-on-phone">
+          <a href="#" class="links">
+            <img src="./assets/Images/logo-nav.png" alt="logo" id="logo-nav">
+          </a>
+        </div>
       <div class="nav">
-        <a href="./index.html"><span id="selected">About</span></a>
+        <a href="#about" class="links">About</a>
       </div>
 
-      <div class="nav"><a href="./portfolio.html">Portfolio</a></div>
+      <div class="nav">
+        <a href="#portfolio" class="links">Portfolio</a>
+      </div>
 
-      <div class="nav"><a href="./contact.html">Contact</a></div>
-      <div class="name-media"><h1 class="name">Olha Melska</h1></div>
+      <div class="nav">
+        <a href="#contact" class="links">Contact</a>
+      </div>
+
+      <!-- <div class="name-media">
+        <h1 class="name">Olha Melska</h1>
+      </div> -->
+      <!-- </div> -->
     </nav>
+
+
+    <!--Main-->
     <main id="main">
-      <section><h2>About me</h2></section>
-      <section class="container">
-        <div class="row-1-col-1">
-          <img src="./assets/Images/profile.jpg" id="profileImg" />
+
+      <div id="about"  data-aos="fade-up" data-aos-duration="3000">
+        <h2>About</h2>
+
+        <div class="container">
+          <!--Skills Icons-->
+            <div class="row">
+              <div class="col-lg-4 center " data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                <img src="assets/Images/problem-solvingBW.png" alt="problem-solving-icon" class="img-icons" > 
+                <p class="text">
+                  Problem-solving approach, coupled with strong verbal and written communication skills and professional work ethic
+                </p>
+              </div>
+              <div class="col-lg-4 center" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                <img src="assets/Images/UI-skills-BW.png" alt="UI-skills-icon" class="img-icons">
+                <p class="text">
+                  Developed web design skills - visualizations, mobile and web-based user interfaces for a delighted user experience
+                </p>
+              </div>
+              <div class="col-lg-4 center" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                <img src="assets/Images/APi-BW.png" alt="API-skills-icon" class="img-icons">
+                <p class="text">Good understanding of API and Integration concepts and technologies, such as JSON, XML, AXIOS</p>
+              </div>
+            </div>
+
+            <!--My own Quote-->
+            <div class="row margin-top">
+              <div class="col-lg-2">
+                <img src="./assets/Images/line.png" alt="line" class="img-fluid padding-top"> 
+              </div>
+              <div class="col-lg-8">
+                <h3 class="quotes">
+                  "Have you ever had that feeling when you are working on a piece of code and there is that one mistake that doesn’t let
+                  your program work? How frustrating and annoying it is to spend all that time looking for one misspelled word. One
+                  little
+                  thing that makes your loop go on forever. How challenging it is to dig in your head and try to figure out what exactly
+                  is wrong with your logic. Can you imagine how good it feels after all that time, you get it, fix it and make that
+                  program work! How amazing it is - that particular moment, when you get it done and win over it. There is nothing
+                  better!
+                  This is what programming does to me. This is what I feel the most passionate about. This is what I want to do in my
+                  life."
+                </h3>
+              </div>
+              <div class="col-lg-2">
+                <img src="./assets/Images/line.png" alt="line" class="img-fluid padding-top">
+              </div>
+            </div>
+
+            <!--Image and Text-->
+            <div class="row margin-top"  data-aos="fade-up" data-aos-duration="3000">
+              <div class="col-lg-3">
+                
+                <a href="https://drive.google.com/file/d/1rOSlVUKN5weH5iHnHE-c73ZhE2HCrS6-/view?usp=sharing"
+                  target="_blank" class="padding-top" id="resume">
+                  <img src="./assets/Images/profile.jpg" class="img-fluid"/>
+                  <p class="overlay">Click to view my resume</p>
+                </a>
+              </div>
+              <div class="col-lg-9">
+                <p>
+                  I am a <span class="bold">Full Stack Web Developer</span> with a strong desire to propose and develop innovative
+                  solutions to optimize, code, and develop
+                  new functionalities for a better user experience. Passionate about technology and excited about facing programming
+                  challenges. Possesses a <span class="bold">Computer Science</span> background and fearless approach to new software
+                  platforms.
+                </p>
+
+                <p>
+                  My coding studies began at <span class="bold">Computer Academy STEP</span>, which I attended for five years before
+                  completing three years of
+                  <span class="bold">Computer Science</span> at <span class="bold">Lviv National Polytechnic University</span> . After
+                  finishing a <span class="bold">Front End Web Development</span> class at <span class="bold">Flatiron
+                    School</span>, I decided to embark on the <span class="bold">Columbia Engineering Coding Bootcamp</span>.
+                </p>
+
+                <p>
+                  My experience is in writing C++, Node.JS and JavaScript, as well as HTML and CSS. Also, I am familiar with Photoshop,
+                  Illustrator, 3DSMax and Flash animation which is useful in developing properly styled websites and software platforms.
+                </p>
+
+                <p>
+                  Fast learner and hard-worker determined to succeed.
+                </p>
+                </div>
+              </div>
+
+              <!--Steve Jobs Quote-->
+              <div class="row margin-top" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-lg-2">
+                  <img src="./assets/Images/line.png" alt="line" class="img-fluid margin-top">
+                </div>
+                <div class="col-lg-8">
+                  <p class="quotes">
+                    "Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other
+                    innovations".
+                  </p>
+                  <p class="right bold">Steve Jobs</p>
+                </div>
+                <div class="col-lg-2">
+                  <img src="./assets/Images/line.png" alt="line" class="img-fluid  margin-top">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        
 
-        <div class="row-1-col-2">
-          <p>
-            Hi there! My name is <span id="bold">Olha Melska</span> and I'm from
-            Ukraine.
-          </p>
+      <!--Portfolio-->
+      <div id="portfolio">
+          <h2>MY WORKS</h2>
+          <div class="container">
+            <!--Row 1 homeworks-->
+            <div class="row margin-top no-gutters">
+              <!--1 item-->
+              <div class="col-lg-4 works" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="3000" data-aos-duration="2500">
 
-          <p>
-            I'm a beginner Web Developer with a strong desire to propose and
-            develop innovative solutions to optimize, code and develop new
-            functionalities for a better user experience. Individual with a
-            fearless approach to new software platforms, fast learner and
-            hard-working person with a great goal to succeed.
-          </p>
+                <div class="overlay2">
+                  <h3 class="center">Wedding Invitation</h3>
+                  <a href="assets/Projects/Wedding Invatation/index.html" target="_blank">
+                    <button>Learn more</button>
+                  </a>
+                <p class="description">Design our own wedding invitation template</p>
+                  </div>
+                  <img src="assets/Images/wedding.jpg" class="img-fluid" />
+                
+              </div>
+              <!--2 item-->
+              <div class="col-lg-4 works" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="2500" data-aos-delay="1500">
+                <div class="overlay2">
+                  <h3 class="center">Word Guess Game</h3>
+                  <a href="https://olyamelska.github.io/Word-Guess-Game/" target="_blank">
+                    <button>Learn more</button>
+                  </a>
+                <p class="description">Type in the key and guess the word</p>
+                </div>
+                
+                  <img src="assets/Images/wordgame.jpg" class="img-fluid" />
+                
+              </div>
+              <!--3 item-->
+              <div class="col-lg-4 works" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="2500" >
+                <div class="overlay2">
+                  <h3 class="center">Trivia Game</h3>
+                  <a href="https://olyamelska.github.io/TriviaGame/" target="_blank">
+                    <button>Learn more</button>
+                  </a>
+                  <p class="description">Movie tivia - 10 timed questions</p>
+                </div>
+                
+                  <img src="assets/Images/triviaGame.jpg" class="img-fluid" />
+                
+              </div>
+            </div>
+            <!--Row 2 homeworks-->
+            <div class="row no-gutters">
+              <!--row2 item 1-->
+              <div class="col-lg-4 works" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="3000" data-aos-duration="2500">
+                <div class="overlay2">
+                  <h3 class="center">Game Of Thrones</h3>
+                  <a href="https://olyamelska.github.io/unit-4-game/" target="_blank">
+                    <button>Learn more</button>
+                  </a>
+                <p class="description">Choose players smartly in order to win the game</p>
+                </div>
+                
+                  <img src="assets/Images/gameofthrones.jpg" class="img-fluid" />
+                
+              </div>
+              <!--row2 item 2-->
+              <div class="col-lg-4 works"  data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="2500" data-aos-delay="1500">
+                <div class="overlay2">
+                  <h3 class="center">The Bapple List</h3>
+                  <a href="https://rahul-vig.github.io/TheBappleList/index.html" target="_blank">
+                    <button>Learn more</button>
+                  </a>
+                <p class="description">Group project with top rated spots in NYC</p>
+                </div>
+                <img src="./assets/Images/bapplelisk-bw.png"
+                    alt="The project" class="img-fluid">
+              </div>
+                <!--row 2 item 3-->
+              <div class="col-lg-4 works"  data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="2500" >
+                <div class="overlay2">
+                  <h3 class="center">Giphy IPA</h3>
+                  <a href="https://olyamelska.github.io/GiphyAPI/" target="_blank">
+                    <button>Learn more</button>
+                  </a>
+                  <p class="description">Search for Gifs with your favourite actors</p>
+                  </div>
+                  <img src="./assets/Images/gif.gif" alt="GiphyAPI" class="img-fluid" id="grayscale">
+                
+              </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
 
-          <p>
-            I came to the United States 2.5 years ago. Now, I'm attending a
-            coding bootcamp at <span id="bold">Columbia Engineering</span>, Full
-            Stack Web Development program.
-          </p>
+      <!--Contact-->
+      <div id="contact" data-aos="fade-up" data-aos-duration="3000" class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>CONTACT</h2>
+            <p class="center">Have a question? Feel free to contact me. And I will get in touch with you shortly.</p>
+            <form class="contact" action="https://formspree.io/olya.melska@gmail.com" method="POST">
+            
+              <input type="text" name="name" placeholder="Name" data-aos="fade-up" data-aos-duration="3000" />
+            
+              <br>
+              <input type="email" name="_replyto" placeholder="Enter your email" class=" margin-top" data-aos="fade-up"
+                data-aos-duration="3000" />
+            
+              <br>
+              <textarea name="message" placeholder="Type in your message here" class=" margin-top" data-aos="fade-up"
+                data-aos-duration="3000"></textarea>
+              <br />
+              <input type="submit" value="Send" id="submitButton" class="margin-top">
+            
+            </form>
+            
+            <div>
+              <p>Follow me on a Social Media:</p>
+              <a href="https://www.facebook.com/olyamelska" target="_blank">
+                <img src="./assets/Images/fblogo.jpg" alt="facebook logo" class="socialMedia" />
+              </a>
+            
+              <a href="https://www.instagram.com/olyamelska/?hl=en" target="_blank">
+                <img src="assets/Images/instaicon.jpg" alt="instagram logo" class="socialMedia" />
+              </a>
+            
+              <a href="https://www.linkedin.com/in/olha-melska-685553158/" target="_blank">
+                <img src="./assets/Images/inlogo.jpg" alt="linkedin logo" class="socialMedia" />
+              </a>
+            </div>
+          </div>
 
-          <p>
-            Before that I took a part-time Front-End Web Development class at
-            <span id="bold">Flatiron School</span>.
-          </p>
-
-          <p>
-            Back in Ukraine I finished three years of
-            <span id="bold">Computer Sciences</span> at
-            <span id="bold">Lviv National Polytechnic University</span>.
-          </p>
-
-          <p>
-            Besides, I graduated a <span id="bold">Computer Academy STEP</span>,
-            Sunday School. I went there for five years since I was 11 years old.
-            There I touched a few basics:
-          </p>
         </div>
-
-        <div class="row-2-col-1">
-          <ul>
-            <li>C++</li>
-            <li>HTML</li>
-            <li>Css</li>
-            <li>JavaScript</li>
-            <li>Flash animation</li>
-            <li>3DS Max</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe Premiere</li>
-          </ul>
-          <p>
-            Since I changed the country of living, it took me two years before I
-            finally managed going back to school. I was working at different
-            restraunts, starting from casual dining and moving forward to fine
-            dining and Michelin Star restaurant experience. Now, I'm working at
-            <span id="bold">LifeWorks Technology Group</span> as an
-            <span id="bold">Executive Sales Assistant</span>.
-          </p>
-        </div>
-
-        <div class="row-2-col-2">
-          <img src="./assets/Images/laptop.jpg" id="laptop" />
-        </div>
-      </section>
+        
+    </div>
     </main>
 
-    <footer><p id="copyright">copyright&copy;2019</p></footer>
+    <p class="center">
+      <a href="#">
+        <img src="./assets/Images/arrow.png" alt="Go up" class="go-up">
+      </a>
+    </p>
+
+    <!--Footer-->
+    <footer>
+      <h1 class="name">Olha Melska copyright 2019</h1>
+    </footer>
+
+    
+
+    <!--jQuery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--JavaScript-->
     <script src="./assets/JavaScript/java.js"></script>
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

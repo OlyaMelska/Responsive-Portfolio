@@ -1,0 +1,85 @@
+/*Big Screen*/
+
+@media screen and (max-width: 980px) {}
+
+/*Tablet*/
+
+@media only screen and ( max-width: 768px) {
+    header {
+        background: url("../Images/back-tablet.png");
+        background-size: cover;
+        background-position: center;
+    }
+    #div-front {
+        background: #fff;
+        margin-top: 20%;
+        margin-left: 5%;
+        padding: 3%;
+        width: 90%;
+    }
+    h1, #start-page-text {
+        font-size: 32px;
+    }
+    .padding-top {
+        padding-top: 0;
+    }
+    .margin-top {
+        margin-top: 2px;
+    }
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+    [data-aos-duration] {
+        transition-duration: 0.1 !important;
+    }
+}
+
+/*Phone*/
+
+@media screen and (max-width: 640px) {
+    header {
+        background: #fff;
+    }
+    #front-logo {
+        width: 90%;
+    }
+    h1, #start-page-text {
+        font-size: 18px;
+    }
+    #hide-on-phone {
+        display: none;
+    }
+    .menu-icon {
+        display: inline;
+    }
+    #menu-icon {
+        width: 70px;
+        height: 50px;
+    }
+    .navbar {
+        height: 55px;
+    }
+    .main-link {
+        display: none;
+    }
+    .nav, .main-link {
+        display: none;
+    }
+    .dropdown .nav {
+        display: block;
+        margin: 0;
+        width: 100%;
+        background: #1f1e1f;
+        text-align: left;
+        border-radius: 0;
+        border: 0;
+        padding: 0;
+    }
+    input, textarea {
+        width: 100%;
+    }
+    #main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
