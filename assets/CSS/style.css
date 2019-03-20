@@ -57,7 +57,11 @@ h2 {
 }
 
 .padding-top {
-    padding-top: 70%;
+    padding-top: 50%;
+}
+
+.margin-lines {
+    margin-top: 18px;
 }
 
 .name-media {
@@ -85,7 +89,7 @@ h2 {
 
 .quotes {
     font-family: 'Nanum Brush Script', cursive;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     font-weight: lighter;
 }
