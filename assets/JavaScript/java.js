@@ -4,9 +4,11 @@ let navbar = document.getElementById("navbar");
 let menuIcon = document.getElementById("menu-icon");
 let dropdownMenu = document.getElementById("navbar");
 let main = document.getElementById("main");
-// let sticky = navbar.offsetTop;
 
 menuIcon.addEventListener("click", event => {
+  $(".links").on("click", () => {
+    dropdownMenu.classList.remove("dropdown");
+  });
   dropdownMenu.classList.toggle("dropdown");
 });
 
