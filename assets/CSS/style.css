@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #4b4e51;
@@ -88,7 +92,7 @@ h2 {
 }
 
 .quotes {
-    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 20px;
     text-align: center;
     font-weight: lighter;
