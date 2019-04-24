@@ -211,6 +211,11 @@ a:hover {
     padding-bottom: 5%;
 }
 
+.right-position {
+    position: absolute;
+    right: 0;
+}
+
 .projects {
     font-weight: bold;
 }

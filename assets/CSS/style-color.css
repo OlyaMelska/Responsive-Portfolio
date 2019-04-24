@@ -1,0 +1,310 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #4885ed;
+    background: #fff;
+    margin: 0;
+    font-size: 16px;
+}
+
+header {
+    background: url("../Images/back.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center top;
+}
+
+#start-page {
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+#start-page-text {
+    font-size: 36px;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+#logo-nav {
+    width: 40px;
+    height: 40px;
+}
+
+#front-logo {
+    margin-top: 3%;
+    width: 25%;
+    height: auto;
+}
+
+h2 {
+    color: #3cba54;
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    color: #3cba54;
+}
+
+#name {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    color: #273b7a;
+    height: auto;
+    padding: 0.5%;
+    margin: auto;
+    font-size: 28px;
+}
+
+.padding-top {
+    padding-top: 50%;
+}
+
+.margin-lines {
+    margin-top: 18px;
+}
+
+.name-media {
+    display: none;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav {
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    margin-left: 2px;
+}
+
+.quotes {
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#navbar {
+    z-index: 1;
+    width: 100%;
+    height: 55px;
+    background: #f4c20d;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4885ed;
+}
+
+a:hover {
+    color: #3cba54;
+}
+
+.active {
+    color: #4b4e51;
+    font-style: bold;
+}
+
+.right {
+    float: right;
+    padding-right: 50px;
+}
+
+#profileImg {
+    width: 65%;
+    height: auto;
+}
+
+.right {
+    text-align: right;
+}
+
+#laptop {
+    width: 400px;
+    height: 200px;
+}
+
+.paragraph {
+    padding: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.img-icons {
+    width: 200px;
+    height: 220px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    color: #f4c20d;
+    width: 89%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+#resume:hover .overlay {
+    opacity: 1;
+}
+
+.works:hover .overlay2 {
+    opacity: 1;
+    z-index: 1;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    background: #273b7a;
+    background: #0a0b0b;
+    color: #4885ed;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.right-position {
+    position: absolute;
+    right: 0;
+}
+
+.projects {
+    font-weight: bold;
+}
+
+.projectImages {
+    width: 80%;
+    height: 80%;
+}
+
+main {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.socialMedia {
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    /* background: url("../Images/back.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center bottom; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.go-up {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+#go-down {
+    margin-top: 40px;
+}
+
+.auto-margin {
+    margin: auto;
+}
+
+#submitButton {
+    width: 80px;
+    border-radius: 4px;
+    background: #f4c20d;
+    color: #db3236;
+}
+
+input, textarea {
+    width: 450px;
+    padding: 5px;
+    background: #f4c20d;
+    color: #273b7a;
+}
+
+.description {
+    font-size: 12px;
+}
+
+.contact {
+    color: #273b7a;
+}
+
+textarea {
+    height: 180px;
+    color: #d1d1d1
+}
+
+ul {
+    padding-left: 3%;
+}
+
+button {
+    padding: 8px 22px;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #f4c20d;
+    color: #db3236;
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.9;
+}
