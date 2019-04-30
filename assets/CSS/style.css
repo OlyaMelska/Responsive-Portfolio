@@ -188,7 +188,7 @@ a:hover {
     position: absolute;
     bottom: 0;
     background: rgb(255, 254, 254);
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.9);
     color: #1f1e1f;
     width: 100%;
     transition: .5s ease;
